@@ -1,16 +1,16 @@
 # Bootstrap 4 sitebuilding projekt
 
 A letölthető fájlok a leírás végén találhatóak.   
-A desktop PDF-fájl fel van címkézve a feladatok szövegével.
+A desktop PDF-fájl fel van címkézve a feladatok szövegével. 
 
 Készítsd el a desktop.jpeg/mobile.jpeg képen látható reszponzív honlapot Bootstrap 4 segítségével!   
 
 Összesen 2 nézetünk van. Large breakpoint (992px) felett a desktop, alatta a mobil view érvényesüljön!    
 A dizájnhoz használt képeket megtalálod az img mappában.   
 
-Használj egyéni betűtípusokat – Google Fonts-ról le kell tölteni, és CSS-ben egyéni betűtípusokat kell létrehozni az alábbiak szerint:
+Használj egyéni betűtípusokat – Google Fonts-ról le kell tölteni, és CSS-ben egyéni  betűtípusokat kell létrehozni az alábbiak szerint:
 
-- A címsorok és menük betűtípusa: Catamaran, Helvetica, Arial, sans-serif
+- A címsorok és menük betűtípusa: Catamaran, Helvetica, Arial, sans-serif  
 - Gombok szövege, felső menü linkek: Lato, Helvetica, Arial, sans-serif
 - Bekezdések: Muli, Helvetica, Arial, sans-serif
 - A footer egységesen: Muli, Helvetica, Arial, sans-serif

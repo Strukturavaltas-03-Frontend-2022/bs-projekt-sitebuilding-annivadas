@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&,300&family=Mulish:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.navbarBrand,
+.navbar-toggler,
+h1,
+h2,
+h3 {
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Mulish' Arial, Helvetica, sans-serif;
+}
+
+button {
+    font-family: 'Lato' Arial, Helvetica, sans-serif;
+}
+
+.navbarBrand {
+    color: #fdcc52;
+    font-size: 1.2rem;
+}
+
+.navbarBrand:hover {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fdcc52;
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+}
+
+header {
+    background-image: url("./img/bg-pattern.png"), linear-gradient(to right, #da2431, #7c4394);
+    background-repeat: repeat;
+}
+
+.mobile {
+    position: relative;
+    display: block;
+}
+
+.inline-image {
+    position: absolute;
+    left: 29%;
+    top: 11%;
+}
+
+.inline-image2 {
+    position: absolute;
+    left: 29%;
+    top: 9%;
+}
+
+.fas {
+    font-size: 4rem;
+    color: #ad365e;
+}
+
+section.ctajpg {
+    position: relative;
+    padding: 15rem 0;
+    background-image: url("img/bg-cta.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+section.ctajpg .ctajpg-content {
+    position: relative;
+}
+
+section.ctajpg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+    transition: all 0.3s;
+    font-size: 0.8rem;
+}
+
+.btn:hover {
+    background-color: #fdcc52;
+    border-color: #fdcc52;
+}
+
+footer,
+footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+    color: #fdcc52;
+}
+
+.sticky {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+@media (min-width: 992px) {
+    .sticky {
+        box-shadow: none;
+        background-color: transparent;
+    }
+}
+
+.sticky.shrink {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
+.sticky.shrink .navbarBrand {
+    color: rgb(143, 143, 143);
+}
+
+.sticky.shrink .navbarBrand:hover {
+    color: rgb(192, 192, 192);
+}
+
+.sticky.shrink .nav-link {
+    color: rgb(116, 116, 116);
+}
+
+.sticky.shrink .nav-link:hover {
+    color: rgb(192, 192, 192);
+}
+
+.discoverText {
+    background-color: #fdcc52;
+}
+
+.firstText {
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.4;
+    font-size: 1.75rem;
+}
+
+.social-icon {
+    opacity: 0.9;
+}
+
+.social-icon:hover {
+    opacity: 1;
+}
